@@ -111,5 +111,3 @@ function naptan() {
 
   return s;
 }
-
-fs.createReadStream('./NaPTAN.xml').pipe(naptan()).pipe(fs.createWriteStream('./naptan.json'));
