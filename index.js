@@ -4,6 +4,8 @@ function naptan() {
 
   var that = this;
 
+  s.emit('data', '[ \n');
+
   that.stops = [];
   that.counter = 0;
   that.timer = new Date();
@@ -101,6 +103,7 @@ function naptan() {
     if (arguments.length) {
       s.write(buf);
     }
+    s.emit('data', '] \n');
     s.writable = false;
   };
 
