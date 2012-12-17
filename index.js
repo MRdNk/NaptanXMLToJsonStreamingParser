@@ -4,8 +4,6 @@ function naptan() {
 
   var that = this;
 
-  s.emit('data', '[ \n');
-
   that.stops = [];
   that.counter = 0;
   that.timer = new Date();
@@ -35,6 +33,9 @@ function naptan() {
   var s = new Stream();
   s.writable = true;
   s.readable = true;
+  
+  /* emit array starter */
+  s.emit('data', '[ \n');
 
   var saxStream = require("sax").createStream(false, {});
 
@@ -113,3 +114,5 @@ function naptan() {
 
   return s;
 }
+
+module.exports = naptan;

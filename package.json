@@ -1,5 +1,5 @@
 {
-  "name": "NaptanXMLToJsonStreamingParser",
+  "name": "naptan-xml2json-parser",
   "version": "0.0.1",
   "description": "Takes a stream of NaPTAN xml data and transforms it to a JSON writable stream",
   "main": "naptan.js",
