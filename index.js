@@ -1,5 +1,4 @@
 var Stream = require('stream');
-var fs = require('fs');
 
 function naptan() {
 
