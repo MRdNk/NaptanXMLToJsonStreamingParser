@@ -87,18 +87,11 @@ function naptan() {
       that.finishStop();
     }
 
-    that.counter++;
-    if (that.counter % 10000 === 0) {
-      console.log(that.counter);
-    }
-
   });
 
   /* Emits when the end of stream is reached */
   saxStream.on('end', function () {
-    console.log(that.counter);
-    that.timer = new Date() - that.timer;
-    console.log(that.timer);
+    console.log('end');
   });
 
   s.write = function (buf) {
