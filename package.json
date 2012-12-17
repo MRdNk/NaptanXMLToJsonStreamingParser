@@ -1,0 +1,26 @@
+{
+  "name": "NaptanXMLToJsonStreamingParser",
+  "version": "0.0.1",
+  "description": "Takes a stream of NaPTAN xml data and transforms it to a JSON writable stream",
+  "main": "naptan.js",
+  "dependencies": {
+    "request": "~2.12.0",
+    "sax": "~0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MRdNk/NaptanXMLToJsonStreamingParser.git"
+  },
+  "keywords": [
+    "NaPTAN",
+    "stream",
+    "parser"
+  ],
+  "author": "MRdNk",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
