@@ -33,7 +33,7 @@ function naptan() {
   var s = new Stream();
   s.writable = true;
   s.readable = true;
-  
+
   /* emit array starter */
   s.emit('data', '[ \n');
 

@@ -1,6 +1,6 @@
 {
   "name": "naptan-xml2json-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Takes a stream of NaPTAN xml data and transforms it to a JSON writable stream",
   "main": "naptan.js",
   "dependencies": {
